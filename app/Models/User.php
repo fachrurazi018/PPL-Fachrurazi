@@ -17,10 +17,6 @@ class User extends Authenticatable
     *
     * @var array<int, string>
     */
-    // method protected variabel table dari tb_user
-    protected $table = "users";
-    // methode protected variabel primarykey dari kolom user_id
-    protected $primaryKey = "user_id";
     
     protected $fillable = [
         'name',
